@@ -5,4 +5,11 @@ var ReactDOM = require('react-dom');
 
  var GroceryItemList = require('./components/GroceryItemList.jsx');
 
- ReactDOM.render(<GroceryItemList />, app);
+var initial =[{
+	name:"ice cream"
+},
+{
+	name:"candy",
+	purchased:true
+}]
+ ReactDOM.render(<GroceryItemList items={initial}/>, app);

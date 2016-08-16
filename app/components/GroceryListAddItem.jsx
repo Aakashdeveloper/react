@@ -9,8 +9,8 @@ module.exports = React.createClass({
     handleInputName:function(e){
       this.setState({input: e.target.value});
     },
-    addItem:function(){
-    e.preventDefault();
+    addItem:function(e){
+      e.preventDefault();
       console.log("Adding items", this.state.input);
     },
 		render:function(){

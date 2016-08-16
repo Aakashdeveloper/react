@@ -34,8 +34,8 @@ function GroceryItemStore(){
 
    dispatcher.register(function(event){
 
-       var split = event.type.split(":");
-       if(split[0] === 'grocery-Item'){
+       var split = event.type.split(':');
+       if(split[0] === 'grocery-item'){
          switch(split[1]){
             case "add":
                   addGroceryItem(event.payload);

@@ -1,6 +1,6 @@
 module.exports = function(app){
 	var items =[{
-	name:"ice cream"
+	name:"ice creams"
     },
      {
 	name:"candy",

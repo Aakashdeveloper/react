@@ -9,7 +9,8 @@ function GroceryItemStore(){
      {
 	name:"candy",
 	purchased:true
-    }]
+    }];
+
    var listeners = [];
 
    function getItems(){

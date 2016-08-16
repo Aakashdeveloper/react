@@ -1,0 +1,208 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'react-dom',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json react@1.0.0 No description
+6 warn package.json react@1.0.0 No repository field.
+7 warn package.json react@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'react-dom', null ]
+10 verbose cache add name=undefined spec="react-dom" args=["react-dom",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'react-dom',
+11 verbose parsed url   path: 'react-dom',
+11 verbose parsed url   href: 'react-dom' }
+12 silly lockFile 7ddbc806-react-dom react-dom
+13 verbose lock react-dom C:\Users\AAKASH\AppData\Roaming\npm-cache\7ddbc806-react-dom.lock
+14 silly lockFile 7ddbc806-react-dom react-dom
+15 silly lockFile 7ddbc806-react-dom react-dom
+16 verbose addNamed [ 'react-dom', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 59defc87-react-dom react-dom@
+19 verbose lock react-dom@ C:\Users\AAKASH\AppData\Roaming\npm-cache\59defc87-react-dom.lock
+20 silly addNameRange { name: 'react-dom', range: '*', hasData: false }
+21 verbose request where is /react-dom
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 890c42b39f54b764
+24 verbose url raw /react-dom
+25 verbose url resolving [ 'https://registry.npmjs.org/', './react-dom' ]
+26 verbose url resolved https://registry.npmjs.org/react-dom
+27 verbose request where is https://registry.npmjs.org/react-dom
+28 info trying registry request attempt 1 at 23:23:12
+29 verbose etag "HZQB23XTZ7589FWB578PZQTU"
+30 http GET https://registry.npmjs.org/react-dom
+31 http 304 https://registry.npmjs.org/react-dom
+32 silly registry.get cb [ 304,
+32 silly registry.get   { date: 'Mon, 15 Aug 2016 17:53:17 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     'cache-control': 'max-age=300',
+32 silly registry.get     etag: '"HZQB23XTZ7589FWB578PZQTU"',
+32 silly registry.get     age: '118',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+32 silly registry.get     'x-cache': 'HIT',
+32 silly registry.get     'x-cache-hits': '1',
+32 silly registry.get     'x-timer': 'S1471283597.818858,VS0,VE0',
+32 silly registry.get     vary: 'Accept-Encoding' } ]
+33 verbose etag https://registry.npmjs.org/react-dom from cache
+34 silly addNameRange number 2 { name: 'react-dom', range: '*', hasData: true }
+35 silly addNameRange versions [ 'react-dom',
+35 silly addNameRange   [ '0.1.0',
+35 silly addNameRange     '0.14.0-beta1',
+35 silly addNameRange     '0.14.0-beta2',
+35 silly addNameRange     '0.14.0-beta3',
+35 silly addNameRange     '0.14.0-rc1',
+35 silly addNameRange     '0.14.0',
+35 silly addNameRange     '0.14.1',
+35 silly addNameRange     '0.14.2',
+35 silly addNameRange     '0.14.3',
+35 silly addNameRange     '0.14.4',
+35 silly addNameRange     '0.14.5',
+35 silly addNameRange     '0.14.6',
+35 silly addNameRange     '0.15.0-alpha.1',
+35 silly addNameRange     '0.14.7',
+35 silly addNameRange     '15.0.0-rc.1',
+35 silly addNameRange     '15.0.0-rc.2',
+35 silly addNameRange     '0.14.8',
+35 silly addNameRange     '15.0.0',
+35 silly addNameRange     '15.0.1',
+35 silly addNameRange     '15.0.2-alpha.1',
+35 silly addNameRange     '15.0.2-alpha.2',
+35 silly addNameRange     '15.0.2-alpha.3',
+35 silly addNameRange     '15.0.2-alpha.4',
+35 silly addNameRange     '15.0.2',
+35 silly addNameRange     '15.0.3-alpha.1',
+35 silly addNameRange     '15.0.3-alpha.2',
+35 silly addNameRange     '15.1.0-alpha.1',
+35 silly addNameRange     '15.1.0',
+35 silly addNameRange     '15.2.0-rc.1',
+35 silly addNameRange     '15.2.0-rc.2',
+35 silly addNameRange     '15.2.0',
+35 silly addNameRange     '15.2.1',
+35 silly addNameRange     '15.3.0-rc.1',
+35 silly addNameRange     '15.3.0-rc.2',
+35 silly addNameRange     '15.3.0-rc.3',
+35 silly addNameRange     '15.3.0',
+35 silly addNameRange     '15.3.1-rc.1' ] ]
+36 verbose addNamed [ 'react-dom', '15.3.0' ]
+37 verbose addNamed [ '15.3.0', '15.3.0' ]
+38 silly lockFile 59ddfbb2-react-dom-15-3-0 react-dom@15.3.0
+39 verbose lock react-dom@15.3.0 C:\Users\AAKASH\AppData\Roaming\npm-cache\59ddfbb2-react-dom-15-3-0.lock
+40 silly lockFile 59ddfbb2-react-dom-15-3-0 react-dom@15.3.0
+41 silly lockFile 59ddfbb2-react-dom-15-3-0 react-dom@15.3.0
+42 silly lockFile 59defc87-react-dom react-dom@
+43 silly lockFile 59defc87-react-dom react-dom@
+44 silly resolved [ { name: 'react-dom',
+44 silly resolved     version: '15.3.0',
+44 silly resolved     description: 'React package for working with the DOM.',
+44 silly resolved     main: 'index.js',
+44 silly resolved     repository:
+44 silly resolved      { type: 'git',
+44 silly resolved        url: 'git+https://github.com/facebook/react.git' },
+44 silly resolved     keywords: [ 'react' ],
+44 silly resolved     license: 'BSD-3-Clause',
+44 silly resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+44 silly resolved     homepage: 'https://facebook.github.io/react/',
+44 silly resolved     dependencies: {},
+44 silly resolved     peerDependencies: { react: '^15.3.0' },
+44 silly resolved     scripts: { start: 'node server.js' },
+44 silly resolved     _id: 'react-dom@15.3.0',
+44 silly resolved     _shasum: '24a6a3df67969656b8a8225fd0d7fcb939d28bdd',
+44 silly resolved     _resolved: 'https://registry.npmjs.org/react-dom/-/react-dom-15.3.0.tgz',
+44 silly resolved     _from: 'react-dom@',
+44 silly resolved     _npmVersion: '3.9.6',
+44 silly resolved     _nodeVersion: '6.2.0',
+44 silly resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+44 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+44 silly resolved     dist:
+44 silly resolved      { shasum: '24a6a3df67969656b8a8225fd0d7fcb939d28bdd',
+44 silly resolved        tarball: 'https://registry.npmjs.org/react-dom/-/react-dom-15.3.0.tgz' },
+44 silly resolved     _npmOperationalInternal:
+44 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+44 silly resolved        tmp: 'tmp/react-dom-15.3.0.tgz_1469817492868_0.942254323977977' },
+44 silly resolved     directories: {},
+44 silly resolved     readme: 'ERROR: No README data found!' } ]
+45 info install react-dom@15.3.0 into C:\Users\AAKASH\Desktop\reactcode
+46 info installOne react-dom@15.3.0
+47 verbose node_modules\react-dom unbuild
+48 info preuninstall react-dom@15.3.0
+49 info uninstall react-dom@15.3.0
+50 verbose true,C:\Users\AAKASH\Desktop\reactcode\node_modules,C:\Users\AAKASH\Desktop\reactcode\node_modules unbuild react-dom@15.3.0
+51 info postuninstall react-dom@15.3.0
+52 verbose tar unpack C:\Users\AAKASH\AppData\Roaming\npm-cache\react-dom\15.3.0\package.tgz
+53 silly lockFile 5d5b4f16-reactcode-node-modules-react-dom tar://C:\Users\AAKASH\Desktop\reactcode\node_modules\react-dom
+54 verbose lock tar://C:\Users\AAKASH\Desktop\reactcode\node_modules\react-dom C:\Users\AAKASH\AppData\Roaming\npm-cache\5d5b4f16-reactcode-node-modules-react-dom.lock
+55 silly lockFile 92aa0b0b-che-react-dom-15-3-0-package-tgz tar://C:\Users\AAKASH\AppData\Roaming\npm-cache\react-dom\15.3.0\package.tgz
+56 verbose lock tar://C:\Users\AAKASH\AppData\Roaming\npm-cache\react-dom\15.3.0\package.tgz C:\Users\AAKASH\AppData\Roaming\npm-cache\92aa0b0b-che-react-dom-15-3-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '777', '666' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+62 silly gunzTarPerm extractEntry LICENSE
+63 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+64 silly gunzTarPerm extractEntry index.js
+65 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+66 silly gunzTarPerm extractEntry server.js
+67 silly gunzTarPerm modified mode [ 'server.js', 420, 438 ]
+68 silly gunzTarPerm extractEntry PATENTS
+69 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+70 silly gunzTarPerm extractEntry dist/react-dom-server.js
+71 silly gunzTarPerm modified mode [ 'dist/react-dom-server.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry dist/react-dom-server.min.js
+73 silly gunzTarPerm modified mode [ 'dist/react-dom-server.min.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry dist/react-dom.js
+75 silly gunzTarPerm modified mode [ 'dist/react-dom.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry dist/react-dom.min.js
+77 silly gunzTarPerm modified mode [ 'dist/react-dom.min.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry package.json.orig
+79 silly gunzTarPerm modified mode [ 'package.json.orig', 420, 438 ]
+80 silly gunzTarPerm extractEntry package.json.rej
+81 silly gunzTarPerm modified mode [ 'package.json.rej', 420, 438 ]
+82 silly lockFile 5d5b4f16-reactcode-node-modules-react-dom tar://C:\Users\AAKASH\Desktop\reactcode\node_modules\react-dom
+83 silly lockFile 5d5b4f16-reactcode-node-modules-react-dom tar://C:\Users\AAKASH\Desktop\reactcode\node_modules\react-dom
+84 silly lockFile 92aa0b0b-che-react-dom-15-3-0-package-tgz tar://C:\Users\AAKASH\AppData\Roaming\npm-cache\react-dom\15.3.0\package.tgz
+85 silly lockFile 92aa0b0b-che-react-dom-15-3-0-package-tgz tar://C:\Users\AAKASH\AppData\Roaming\npm-cache\react-dom\15.3.0\package.tgz
+86 info preinstall react-dom@15.3.0
+87 verbose readDependencies using package.json deps
+88 verbose readDependencies using package.json deps
+89 silly resolved []
+90 verbose about to build C:\Users\AAKASH\Desktop\reactcode\node_modules\react-dom
+91 info build C:\Users\AAKASH\Desktop\reactcode\node_modules\react-dom
+92 verbose linkStuff [ false,
+92 verbose linkStuff   false,
+92 verbose linkStuff   false,
+92 verbose linkStuff   'C:\\Users\\AAKASH\\Desktop\\reactcode\\node_modules' ]
+93 info linkStuff react-dom@15.3.0
+94 verbose linkBins react-dom@15.3.0
+95 verbose linkMans react-dom@15.3.0
+96 verbose rebuildBundles react-dom@15.3.0
+97 info install react-dom@15.3.0
+98 info postinstall react-dom@15.3.0
+99 verbose readDependencies using package.json deps
+100 verbose already installed skipping react@^15.3.0 C:\Users\AAKASH\Desktop\reactcode
+101 silly resolved []
+102 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+102 error peerinvalid Peer react-addons@0.9.1-deprecated wants react@>= 0.9.0
+102 error peerinvalid Peer react-addons-update@15.3.0 wants react@^15.3.0
+102 error peerinvalid Peer react-dom@15.3.0 wants react@^15.3.0
+103 error System Windows_NT 6.2.9200
+104 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "react-dom" "--save"
+105 error cwd C:\Users\AAKASH\Desktop\reactcode
+106 error node -v v0.10.36
+107 error npm -v 1.4.28
+108 error code EPEERINVALID
+109 verbose exit [ 1, true ]

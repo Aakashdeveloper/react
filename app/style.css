@@ -1,4 +1,13 @@
 .strikethrough{
-	text-decoration: line-through;
+	display: inline;
 	color: slategray;
+	float: left;
+	padding: 20px;
+}
+
+.notreq{
+	display: none;
+}
+.makecenter{
+	margin-left: 30%
 }

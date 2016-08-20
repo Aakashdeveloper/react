@@ -3,9 +3,14 @@ var addons = require('react-addons');
 module.exports = React.createClass({
 	render:function(){
 		return(
-			<div>
-			  <h4 className={this.props.item.purchased ? "strikethrough":""}>{this.props.item.name}</h4>
+			<center>
+			<div className="strikethrough">
+			   <img  src="http://aakashhanda.me/slide1.jpg" />
+			  <h4 >{this.props.item.name}</h4>
+			 
 			</div>
+			</center>
+
 		)
 	}
 })

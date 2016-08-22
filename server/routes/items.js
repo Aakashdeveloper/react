@@ -19,7 +19,22 @@ module.exports = function(app){
    
     },
     {
-    name:"Chris Lema",
+    name:"Ethos3",
+     sources:"2.jpg"
+   
+    },
+    {
+    name:"Ethos3",
+     sources:"2.jpg"
+   
+    },
+    {
+    name:"Ethos3",
+     sources:"2.jpg"
+   
+    },
+    {
+    name:"Ethos3",
      sources:"2.jpg"
    
     }];

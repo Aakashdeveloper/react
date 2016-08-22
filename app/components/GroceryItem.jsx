@@ -6,7 +6,7 @@ module.exports = React.createClass({
 			<center>
 			<div className="strikethrough">
 			   <img  src="http://aakashhanda.me/slide1.jpg" />
-			  <h4 >{this.props.item.name}</h4>
+			  <h4 >{this.props.data.text}</h4>
 			 
 			</div>
 			</center>
@@ -14,3 +14,4 @@ module.exports = React.createClass({
 		)
 	}
 })
+

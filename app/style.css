@@ -11,3 +11,46 @@
 .makecenter{
 	margin-left: 30%
 }
+.outerdiv {
+	margin-top:3%;
+    height: 100%;
+    background: -webkit-linear-gradient( reLightSkyBlued, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(LightSkyBlue, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(LightSkyBlue, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( LightSkyBlue  , white); /* Standard syntax (must be last) */
+background: linear-gradient( LightSkyBlue  , white); /* Standard syntax (must be last) */
+}
+.fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background: #0077B5;
+	padding:18px;
+}
+.one{
+	height:300px;
+	width:250px;
+	
+	float:left;
+	margin-left:15%;
+	margin-top:3%;
+
+}
+.two{
+	height:300px;
+	width:250px;
+	float:left;
+	margin-top:3%;
+	padding:5px;
+	margin-left: 1%
+}
+.three{
+	height:300px;
+	width:250px;
+	float:left;
+	margin-top:3%;
+	padding:5px;
+	margin-left: 1%
+}

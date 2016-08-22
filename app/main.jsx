@@ -16,8 +16,10 @@ groceryItemStore.onChange(function(items){
 })
 render();
 
+
+
 function render(){
        ReactDOM.render(<GroceryItemList items={initial}/>, app)
- }
+ };
 
  

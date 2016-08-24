@@ -7,7 +7,7 @@ module.exports = React.createClass({
 		return (
 			<center>
 			<div>
-			<div  className="fixedheader">SlideShare Home AboutUS ContactUs</div>
+			<div  className="fixedheader">SlideShare    <b>Home</b>   <b>AboutUs</b>    <b>ContactUs</b></div>
 				
 				<center>
 				<div >
